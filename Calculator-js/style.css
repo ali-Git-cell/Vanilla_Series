@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.calc {
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+.screen {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
+}
+
+.calc-button {
+  background-color: #d8d9;
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.calc-button:hover {
+  background-color: rgb(190, 184, 176);
+}
+.calc-button:active {
+  background-color: #8c8d8f;
+}
+
+.calc-button:last-child {
+  background-color: orange;
+}
+.calc-button:last-child:hover {
+  background-color: rgb(224, 154, 24);
+}
+.calc-button:last-child:active {
+  background-color: rgb(192, 147, 62);
+}
+
+.double {
+  width: 49.7%;
+}
+
+.triple {
+  width: 74.8%;
+}
+
+.calc-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
