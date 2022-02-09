@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3494e4;
+  color: #fef;
+  font-family: "Roboto Mono", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin: 10px 0 0;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.cup {
+  background-color: #fff;
+  border: 4px solid rgb(136, 57, 136);
+  color: rgb(136, 57, 136);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0 0 25px 25px;
+  height: 330px;
+  width: 150px;
+  margin: 25px 0;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+}
+.cup.cup-small.full {
+  background-color: rgb(77, 185, 221);
+  color: black;
+}
+
+.remained {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  transition: 0.4s ease;
+}
+.remained span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.remained small {
+  font-size: 15px;
+}
+.percentage {
+  background-color: rgb(77, 185, 221);
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  height: 0;
+  transition: 0.4s ease;
+}
+.cup.cup-small {
+  border-radius: 0 0 15px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(255, 191, 73);
+  height: 95px;
+  width: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  transition: 0.4s ease;
+}
+
+.text {
+  text-align: center;
+  margin: 0 0 6px;
+}
