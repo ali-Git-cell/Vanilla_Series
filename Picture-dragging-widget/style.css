@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(172, 238, 128);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+.empty {
+  width: 160px;
+  height: 160px;
+  border: 1px solid;
+  background-color: rgb(255, 0, 0);
+  margin: 12px;
+}
+
+.fill {
+  background-image: url("https://source.unsplash.com/random/160x160");
+  height: 157px;
+  width: 157px;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.hovered {
+  background-color: gray;
+  border-color: rgb(236, 222, 222);
+  border-style: dotted;
+}
