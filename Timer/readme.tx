@@ -1,0 +1,5 @@
+-show a timer
+-show a border around the timer
+    if the timer is updated, animate the timer border.
+-stop the timer with a button
+    if the pause removed, the timer shall continue
